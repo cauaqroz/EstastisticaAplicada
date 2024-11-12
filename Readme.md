@@ -120,11 +120,11 @@ Podemos usar a fórmula: `P(X=k) = C(n,k) * p^k * (1-p)^(n-k)`, onde:
 
 >`q` = probabilidade de fracasso em cada tentativa (0,7)
 
->`C(n,k)` = combinação de n elementos tomados k a k.
+>`C(n,k)` = `n! / k! * (n-k)!` = combinação de n elementos tomados k a k.
 
 >Calculando: `P(X=5) = C(7,5) * 0,3^5 * 0,7^2`
 
->`C(7,5) = 7!/(5!*2!) = 21`
+>`C(7,5) = 7! / 5! * 2! = 21`
 
 >`P(X=5) = 21 * 0,00243 * 0,49 = 0,025`
 
